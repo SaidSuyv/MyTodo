@@ -15,6 +15,12 @@
 }
 html,body{ height: 100%; min-height: 100%; }
 
+body
+{
+  background-color: var(--background);
+  color: white;
+}
+
 div#root
 {
   min-height: inherit;
