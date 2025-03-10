@@ -12,5 +12,5 @@ div.task
 
  & span{ flex: 1 1 auto; } 
 
- & button.icon:hover{ background-color: transparent }
+ & > button.icon:first-child:hover{ background-color: transparent }
 }
