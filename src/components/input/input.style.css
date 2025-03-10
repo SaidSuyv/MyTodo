@@ -1,0 +1,24 @@
+div.input
+{ 
+  border-radius: 7px;
+
+  padding: 0 15px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #29303B;
+
+  & input
+  {
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    padding: 15px 0;
+
+    flex: 1 1 auto;
+
+    color: #fff;
+  }
+}

@@ -1,0 +1,23 @@
+button
+{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+button.icon
+{
+  height: 40px;
+  width: 40px;
+
+  color: white;
+
+  font-size: 1rem;
+
+  border-radius: 50%;
+
+  &:hover
+  {
+    background-color: #0003;
+  }
+}

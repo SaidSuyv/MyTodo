@@ -1,0 +1,38 @@
+:root
+{
+  --background: #3A4454;
+  --accent: #F5DDDD;
+  --background-dark: #29303B;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Kodchasan" , serif;
+  font-weight: 300;
+  font-style: normal;
+  box-sizing: border-box;
+}
+html,body{ height: 100%; min-height: 100%; }
+
+div#root
+{
+  min-height: inherit;
+  height: inherit;
+
+  padding: 30px;
+
+  background-color: var(--background);
+  color: white;
+  overflow: auto;
+}
+
+div#root,
+div#root main
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div#root main hr { color: white; }

@@ -1,0 +1,16 @@
+div.task
+{
+  background-color: #0002;
+  border-radius: 7px;
+
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+
+ & span{ flex: 1 1 auto; } 
+
+ & button.icon:hover{ background-color: transparent }
+}
